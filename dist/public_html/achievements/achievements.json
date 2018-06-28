@@ -1,0 +1,61 @@
+[{
+    "title": "First-class",
+    "subtitle": "Bachelors Degree in Software Engineering and Games Developent",
+    "date": "2016 - 2017",
+    "description": "Honours Degree awarded by Lancaster University",
+    "image": "education.png"
+}, {
+    "title": "British Computing Society Membership",
+    "subtitle": "Higher Education Award",
+    "date": "June 2017",
+    "description": "Due to the fact that my course has been accredited by British Computing Society, they have decided to put their most driven students forward for a membership.",
+    "image": "award.png"
+}, {
+    "title": "Distinction",
+    "subtitle": "Foundation Degree in Software Engineering and Games Development",
+    "date": "2014 - 2016",
+    "description": "Awarded by the Lancaster University",
+    "image": "education.png"
+}, {
+    "title": "Most Motivated",
+    "subtitle": "Higher Education Award",
+    "date": "May 2016",
+    "description": "Awarded for the continuous effort put forth throughout the year. <br><br> Only one per class is awarded, to the person the course leader deems put the most work throughout the course.",
+    "image": "award.png"
+}, {
+    "title": "Student Ambassador",
+    "subtitle": "Higher Education Award",
+    "date": "May 2016",
+    "description": "Awarded for representing the school of computing on PlayExpo 2016 Blackpool <br><br> I've shown the playable demo of my multiplayer game (Call of Magic) and allowed over 40 people to experience it. They all enjoyed it thoroughly.",
+    "image": "award.png"
+}, {
+    "title": "Triple Distinction *",
+    "subtitle": "Extended Level 3 Diploma in IT",
+    "date": "2012 - 2014",
+    "description": "Distiction grade on all of the 18 units!",
+    "image": "education.png"
+}, {
+    "title": "Excellent Achievement",
+    "subtitle": "Award",
+    "date": "June 2014",
+    "description": "Awarded for achieving the perfect grades on my Level 3 Extended Diploma.",
+    "image": "award.png"
+}, {
+    "title": "Triple Distinction *",
+    "subtitle": "Level 2 Diploma in IT",
+    "date": "2011 - 2012",
+    "description": "Distiction grade on all of the 7 Units!",
+    "image": "education.png"
+}, {
+    "title": "Highest Grades",
+    "subtitle": "Award",
+    "date": "June 2013",
+    "description": "Awarded for achieving the perfect grades on the subsidary part of my Level 3 Diploma.",
+    "image": "award.png"
+}, {
+    "title": "Most motivated",
+    "subtitle": "Award",
+    "date": "June 2013",
+    "description": "Awarded for the continuous effort put forth throughout the year.",
+    "image": "award.png"
+}]
