@@ -1,0 +1,7 @@
+.skill>h3,
+.skill>h4,
+.skill>h5 {
+    width: 100%;
+    clear: both;
+    text-align: center;
+}

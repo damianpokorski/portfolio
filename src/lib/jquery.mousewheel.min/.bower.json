@@ -1,0 +1,14 @@
+{
+  "name": "jquery.mousewheel.min",
+  "_cacheHeaders": {
+    "ETag": "\"03bfd60c5e4dba7a4402597e1853bedfd6f723d8\"",
+    "Content-Length": "1241",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:03bfd60c5",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/jquery/jquery-mousewheel/master/jquery.mousewheel.min.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/jquery/jquery-mousewheel/master/jquery.mousewheel.min.js",
+  "_direct": true
+}

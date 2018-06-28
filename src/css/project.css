@@ -1,0 +1,110 @@
+.project {
+    overflow: visible;
+    overflow: visible;
+    overflow-y: visible;
+}
+
+.project>div {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.project .myText {
+    color: white;
+}
+
+.project .skills .btn {
+    margin: 4px;
+    cursor: pointer;
+}
+
+.projectElement .skills {
+    transition: 1s;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.projectElement:hover .skills {
+    max-height: 500px;
+}
+
+.projectElement .skills h4,
+.projectElement .skills h5 {
+    color: rgba(0, 0, 0, 0);
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.projectElement:hover .skills h4,
+.projectElement:hover .skills h5 {
+    color: black;
+    max-height: 30px;
+}
+
+.projectElement .skills .btn {
+    opacity: 0;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.projectElement:hover .skills .btn {
+    opacity: 1;
+    max-height: 30px;
+}
+
+.projectElement .ribbon {
+    max-width: 25%;
+    display: block;
+    clear: none;
+    margin-bottom: -12.5%;
+    opacity: 0;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.projectElement {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    transition-duration: .25s;
+}
+
+.projectElement * {
+    transition-duration: .5s;
+}
+
+.projectElement:hover {
+    transition-duration: .5s;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 10px white;
+    display: block;
+}
+
+.projectElement:hover .ribbon {
+    opacity: 1;
+    top: -10px;
+    right: -10px;
+    transition-duration: .25s;
+}
+
+.projectElement:hover h1,
+.projectElement:hover h2,
+.projectElement:hover h3,
+.projectElement:hover h4,
+.projectElement:hover h5,
+.projectElement:hover p {
+    color: black;
+}
+
+.projectElement:hover .btn {
+    /* color: black; */
+    /* border-color: black; */
+    /* background: rgba(0, 0, 0, .2); */
+}
+
+
+/* btn styles */
+
+.web {
+    background: rgba(128, 128, 255, 0.7);
+}

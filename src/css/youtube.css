@@ -1,0 +1,33 @@
+.youtube {
+    background: #a90329;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=0);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.youtube:hover {
+    cursor: pointer;
+}
+
+.youtube h3 {
+    font-weight: 100;
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: right;
+    margin-bottom: 0px;
+    padding: 15px 0px 15px 0px;
+}
+
+.youtube .embed-responsive {
+    display: none;
+}

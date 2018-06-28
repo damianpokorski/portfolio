@@ -1,0 +1,11 @@
+{
+  "name": "p5",
+  "_cacheHeaders": {
+    "Last-Modified": "Thu, 09 Feb 2017 03:18:06 GMT",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "main": "index.js",
+  "_source": "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.js",
+  "_target": "*",
+  "_originalSource": "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.js"
+}

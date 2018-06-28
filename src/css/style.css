@@ -1,0 +1,178 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    display: block;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+html {}
+
+body {
+    height: 100%;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: black;
+    background: url('/static/img/backgrounds/bg-blackandwhite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer,
+.interactiveLayer {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    pointer-events: disabled;
+}
+
+.interactiveLayer {
+    pointer-events: all;
+    height: auto;
+    min-height: 100%;
+    overflow-x: scroll;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.darkFilter {
+    background: rgba(0, 0, 0, .5);
+}
+
+.darkerFilter {
+    background: rgba(0, 0, 0, .7);
+}
+
+.flavourText {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* 
+.sidemenu {
+    width: 48px;
+    padding: 0px;
+    padding-top: 25px;
+}
+
+.sidemenu li {
+    display: block;
+    margin-left: 8px;
+    margin-top: 25px;
+    color: white;
+    color: rgba(255, 255, 255, 0.7);
+} 
+
+.sidemenu li:hover {
+    color: white;
+    text-shadow: white 0px 0px 5px;
+    cursor: pointer;
+} */
+
+#myContent .container-fluid .row {
+    width: 150%;
+    overflow-x: scroll;
+}
+
+.scrollUp,
+.scrollDown {
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: white;
+    position: static;
+    top: 0px;
+}
+
+.scrollUp:hover,
+.scrollDown:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#currentProject {
+    margin: 10px 0px 10px 0px;
+}
+
+.backButton {
+    color: white;
+    cursor: pointer;
+}
+
+.backButton h4:hover {
+    font-weight: bolder;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.galleryIMG {
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.galleryIMG img {
+    max-width: 100%;
+}
+
+h5.description {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+.verticalPadding {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#CV {
+    width: 192px;
+    height: 192px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: url('/static/img/ribbon_cv.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration: .25s;
+    z-index: 1000;
+}
+
+#CV:hover {
+    width: 224px;
+    height: 224px;
+}
+
+.noStyle {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+.noStyle:hover {
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
+}
