@@ -1,7 +1,50 @@
 [{
+        "id": "Moneta",
+        "title": "Developer at Moneta Communications Ltd.",
+        "subtitle": "May 2018 - Ongoing",
+        "description": "I believe my employment at Moneta Communications Ltd. opened a lot of possibilities for me to develop and progress my career as it involved moving to the Greater Manchester area. Due to my previous experience I have started improving their work flow right away with the DevOps experience I have previously earned.",
+        "skills": [{
+                "name": "Web development - Frontend",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "jQuery",
+                    "Node.js"
+                ],
+                "class": "btn-primary"
+            }, {
+                "name": "Web development - Backend",
+                "items": [
+                    "PHP",
+                    "MySQL",
+                    "CodeIgniter"
+                ],
+                "class": "btn-success"
+            }, {
+                "name": "Automated Deployment",
+                "items": [
+                    "Powershell",
+                    "Octopus Deployment",
+                    "Jenkins",
+                    "Unix Shell"
+                ],
+                "class": "btn-info"
+            },
+            {
+                "name": "Other",
+                "items": [
+                    "Test Driven Development", "Agile & Sprints"
+                ],
+                "class": "btn-secondary"
+            }
+        ],
+        "html": "/static/projects/moneta/index.html",
+        "ribbon": "static/img/ribbon_employment.png"
+    }, {
         "id": "Voiteq",
         "title": "Software Engineer at Voiteq",
-        "subtitle": "April 2017 - Now",
+        "subtitle": "April 2017 - May 2018",
         "description": "Working with Voiteq has allowed me a learn a lot of skills and abilities and also get a taste of a more corporate and official environment. With an Agile oriented development process focused on utilising test driven development I have been able to not only improve my skills greatly on a technical side but also learn a lot about the development of a reliable product.",
         "skills": [{
                 "name": "Web development - Frontend",
