@@ -7,8 +7,11 @@
 
           <br>
 
+
+
+
           <div class="col-6 offset-3 flavourText">
-              Hi, I'm Damian. Software developer, an adaptable, enthusiastic and highly motivated individual with passion for programming.
+              Hi, I'm Damian - an adaptable, enthusiastic and highly motivated software engineer with passion for programming. 
 
               <br> Keen to learn and confident with strong attention to the detail and a ‘can do’ attitude.
           </div>
