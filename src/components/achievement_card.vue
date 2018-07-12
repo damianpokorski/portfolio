@@ -1,7 +1,7 @@
 <template>
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 achievement">
       <div class="col-xs-12">
-          <img class="img-fluid" v-bind:src="'static/img/' + achievement.image" />
+          <img class="img-fluid" v-bind:src="'static/img/' + achievement.image" alt="Icon image" />
       </div>
 
       <h2 class="text-center title">{{ achievement.title }}</h2>

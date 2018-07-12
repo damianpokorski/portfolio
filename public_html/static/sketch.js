@@ -14,7 +14,7 @@ function createEllipse(_Size = 15, _MaxAlpha = 255) {
 }
 
 function setup() {
-    createCanvas(windowWidth, windowHeight).parent($("#p5Layer")[0]);
+    createCanvas(windowWidth, windowHeight).parent(document.getElementById("p5Layer"));
 }
 
 function draw() {

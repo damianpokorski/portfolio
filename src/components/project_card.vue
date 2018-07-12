@@ -1,7 +1,7 @@
 <template>
   <div class="col-lg-4 col-md-6 col-sm-12 projectElement">
     <router-link :to="projectPath()" class="noStyle">
-      <img v-if="project.ribbon" v-bind:src="project.ribbon" class="img-responsive ribbon" />
+      <img v-if="project.ribbon" v-bind:src="project.ribbon" class="img-responsive ribbon" alt="Ribbon image."/>
       <h3 class="title">{{ project.title }}</h3>
 
       <h5 class="subtitle">{{project.subtitle}}</h5>
